@@ -261,6 +261,8 @@
             this.Controls.Add(this.gbPersona);
             this.Controls.Add(this.gbDistribuidor);
             this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(728, 604);
+            this.MinimumSize = new System.Drawing.Size(728, 604);
             this.Name = "frmInicio";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Inicio -- Distribuidor";
