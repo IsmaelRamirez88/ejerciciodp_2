@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using ejerciciodp_2.vista;
 
 namespace ejerciciodp_2
 {
@@ -16,7 +17,7 @@ namespace ejerciciodp_2
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new frmInicio());
         }
     }
 }
